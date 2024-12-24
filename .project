@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>com.castCrm_WithGenric1</name>
+=======
+	<name>com.castCrm_WithGenric_stev</name>
+>>>>>>> branch 'master' of https://github.com/priyankasandbhor95/com.castCrm_WithGenric.git
 	<comment></comment>
 	<projects>
 	</projects>

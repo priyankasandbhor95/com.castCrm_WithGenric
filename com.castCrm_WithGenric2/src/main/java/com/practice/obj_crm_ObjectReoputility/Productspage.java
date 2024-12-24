@@ -17,8 +17,13 @@ public class Productspage {
 	@FindBy(xpath ="//img[@title='Create Product...']")
 	private WebElement createProductBtn;
 	
+<<<<<<< HEAD
 	@FindBy(xpath ="//input[@name='submit']")
 	private WebElement searchnowBtn;
+=======
+	@FindBy(name ="search_text")
+	private WebElement search_textEdt;
+>>>>>>> branch 'master' of https://github.com/priyankasandbhor95/com.castCrm_WithGenric.git
 
 	public WebElement getCreateProductBtn() {
 		return createProductBtn;
