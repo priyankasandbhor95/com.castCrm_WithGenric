@@ -16,6 +16,9 @@ public class Productspage {
 	
 	@FindBy(xpath ="//img[@title='Create Product...']")
 	private WebElement createProductBtn;
+	
+	@FindBy(name ="search_text")
+	private WebElement search_textEdt;
 
 	public WebElement getCreateProductBtn() {
 		return createProductBtn;
