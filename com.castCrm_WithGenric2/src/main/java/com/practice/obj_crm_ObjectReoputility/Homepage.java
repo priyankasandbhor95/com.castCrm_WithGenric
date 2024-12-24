@@ -14,6 +14,9 @@ public class Homepage {
 		
 	}
 	
+	@FindBy(linkText = "Products")
+	private WebElement productlink;
+	
 	@FindBy(linkText="Organizations")
 	private WebElement orglink;
 	
@@ -34,6 +37,10 @@ public class Homepage {
 
 	public WebElement getSignOutLinkBtn() {
 		return signOutLinkBtn;
+	}
+
+	public WebElement getProductlink() {
+		return productlink;
 	}
 
 	public WebElement getOrglink() {
