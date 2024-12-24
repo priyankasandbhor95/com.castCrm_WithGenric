@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Module_generic_Org_test.createOragnizationtc_01Test"/>
+      <class name="Modulegeneric_Contact_test.createContact_tc_01Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
