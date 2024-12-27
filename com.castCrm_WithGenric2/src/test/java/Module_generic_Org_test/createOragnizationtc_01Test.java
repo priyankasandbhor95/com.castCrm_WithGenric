@@ -60,7 +60,7 @@ public class createOragnizationtc_01Test extends BaseconfigClass {
 		createNewOrg.createOrgWithMandatoryField(orgname); // enter all organization mandatory details and save it
 		utilityclassobject.getTest().log(Status.INFO, "oraganization created with mandatory field");
 
-		// *************verify expected result Header msg
+		// *************verify expected result Header msge
 
 		OrganizationInformationpage orgInfoPage = new OrganizationInformationpage(driver);
 		
